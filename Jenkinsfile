@@ -3,17 +3,17 @@ pipeline{
 	stages{
 		stage('1-clonecode'){
 			steps{
-				sh 'action1'
+				sh 'action2'
 			}
 		}
 		stage('2-artifactbuild'){
 			steps{
-				sh 'action2'
+				sh 'action3'
 			}
 		}
 		stage('3-unitest'){
 			steps{
-				sh 'actions3'
+				sh 'actions4'
 			}
 		}
 	} 
